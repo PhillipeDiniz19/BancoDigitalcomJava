@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Dev {
     private String nome;
-    private Set<Conteudo> conteudosInscritos = new LinkedHashSet<>();
+    private Set<Conteudo> conteudosInscritos = new LinkedHashSet<>(); //hash coloca na ordem que foi adicionado
     private Set<Conteudo> conteudosConcluidos = new LinkedHashSet<>();
 
     public void inscreverBootcamp(Bootcamp bootcamp){
